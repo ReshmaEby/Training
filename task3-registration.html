@@ -1,0 +1,114 @@
+<!DOCTYPE html>   
+<html> 
+<head>
+<style>
+body{
+text-align:center
+
+table{
+text-align:center
+}
+
+</style>
+
+<title>Registration Page</title>
+</head>  
+<body>
+<h1 style="font-size:60px">Registration Form</h1>
+<table class="tbl">
+<tr>
+<td>
+<label> Firstname: </label>   </td>
+<td>      
+<input type="text" name="firstname" /> <br> <br> </td>
+</tr> 
+<tr>
+<td>
+<label> Lastname: </label>      </td>   
+<td>
+<input type="text" name="lastname" /><br> <br> </td> 
+</tr>
+<tr>
+<td>
+<label> DateOfBirth: </label>   </td>
+<td>
+ <input type="date" name="date" ><br> <br> 
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label> Age: </label>   </td>
+<td> 
+<input type="text" name="age" /> <br> <br> 
+</td>
+</tr>
+<tr>
+<td>
+ <label> Gender: </label></td>
+<td> 
+<input type="radio"  name="rdbtn"/> Male 
+<input type="radio" name="rdbtn"/> Female <br>  <br>
+</td>
+</tr>
+<tr>
+<td>  
+ <label> Phone: </label></td>         
+<td><input type="text" name="phone" /> <br> <br>
+</td>
+</tr> 
+ <tr>
+ <td>
+ <label> Email: </label> </td>
+<td> 
+<input type="text" name="email" /> <br> <br> 
+</td>
+</tr>
+<tr>
+<td>
+ <label> Address: </label>      </td>   
+ <td>
+<input type="textarea" name="address" /> <br> <br> </td>
+</tr>
+<tr>
+<td>
+<label for ="state"> State: </label></td>
+<td>         
+<select id="state" name="state">
+  <option value="Kerala">Kerala</option>
+  <option value="Karnataka">Karnataka</option>
+  <option value="Goa">Goa</option>
+  <option value="UP">UP</option>
+</select>
+<br> <br> 
+</td>
+</tr>
+<tr>
+<td>
+<label for ="city"> City: </label> </td>
+<td>        
+<select id="city" name="city">
+</select><br> <br></td>
+</tr>
+<tr>
+<td>
+<label for="username">Username</label>
+  </td><td>  <input type="text" placeholder="Username" name="username" required><br> <br></td>
+  </tr>
+<tr>
+<td>
+    <label for="psw">Password</label></td>
+	<td>
+    <input type="password" placeholder="Enter Password" name="psw" required><br> <br></td>
+	</tr>
+
+   <tr><td> <label for="cnfmpass">Confirm Password</label></td>
+   <td>
+    <input type="password" placeholder="Confirm Password" name="cnfmpass" required></td>
+	</tr>
+	<tr>
+	<td>
+	<button type="submit" style="background-color:lightblue">SignUp</button>  <br> <br>  <br></td>
+	</tr>
+</table>
+</body>
+<html>
